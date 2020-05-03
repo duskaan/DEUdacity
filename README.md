@@ -1,23 +1,24 @@
 #DEUdacity
+
 ![song file](https://github.com/duskaan/DEUdacity/blob/master/Screenshot7.PNG)
 
 
 
 The initial song data is in the json format and as above. The songfile is then read and it is turned into a panda DataFrame with then splitting the columns into the different tables: artists and songs which are visible in the following two pictures. 
-![Songs_table](https://github.com/duskaan/DEUdacity/blob/master/screenshot4.PNG)
+![Songs_table](https://github.com/duskaan/DEUdacity/blob/master/Screenshot4.PNG)
 
-![artist table](https://github.com/duskaan/DEUdacity/blob/master/screenshot5.PNG)
+![artist table](https://github.com/duskaan/DEUdacity/blob/master/Screenshot5.PNG)
 
 For the below Event data, the approach was different.
-![event](https://github.com/duskaan/DEUdacity/blob/master/screenshot8.PNG)
+![event](https://github.com/duskaan/DEUdacity/blob/master/Screenshot8.PNG)
 
 It is originally also a json file, which is read into a df. Only the next song is relevant for the assignment as of now, therefore it is filtered to only included events of that type. The user data is then inserted into the below user table. To ensure that there is no duplicates, the primaryKey is unique. Additionally,if there is a change in the subscription level, that this is updated in the table with --ON CONFLICT ON CONSTRAINT users_pkey DO update set level = excluded.level--. 
 
-![Users table](https://github.com/duskaan/DEUdacity/blob/master/screenshot3.PNG)
+![Users table](https://github.com/duskaan/DEUdacity/blob/master/Screenshot3.PNG)
 
 The time from the event is in miliseconds and needs to be transformed into a table in a readable format. Additionally, in order to do analysis on this data, it is further transformed into the hours, day, weeks and other relevant metrics.
 
-![time table](https://github.com/duskaan/DEUdacity/blob/master/screenshot6.PNG)
+![time table](https://github.com/duskaan/DEUdacity/blob/master/Screenshot6.PNG)
 
 Lastly the event itself is combining the song file to the specific event. For this, the song name and artist are matched to the song files, which are namely the artist and song table. 
 
