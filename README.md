@@ -1,5 +1,5 @@
 #DEUdacity
-![song file](https://github.com/duskaan/DEUdacity/blob/master/screenshot7.PNG)
+![song file](https://github.com/duskaan/DEUdacity/blob/master/Screenshot7.PNG)
 
 
 
