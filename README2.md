@@ -32,7 +32,7 @@ The main concern as of now is, that there seems to be no matching data between t
 
 
 There are 666 different records matched in the songplay tables. The below query is used to analyse if the tables have been copied and transformed successfully.
-![queryrequest](https://github.com/duskaan/DEUdacity/blob/master/songplays_detailsQueryRequest.PNG)
+![queryrequest](https://github.com/duskaan/DEUdacity/blob/master/Songplays_detailsQueryRequest.PNG)
 
 And the result clearly illustrates a success. 
-![queryresult](https://github.com/duskaan/DEUdacity/blob/master/songplays_detailsQuery.PNG)
+![queryresult](https://github.com/duskaan/DEUdacity/blob/master/Songplays_detailsQuery.PNG)
