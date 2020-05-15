@@ -5,7 +5,7 @@
 
 
 The initial song data is in the json format and as above. The songfile is then read and it is turned into a panda DataFrame with then splitting the columns into the different tables: artists and songs which are visible in the following two pictures. 
-![Songs_table](https://github.com/duskaan/DEUdacity/blob/master/songTable.PNG)
+![Songs_table](https://github.com/duskaan/DEUdacity/blob/master/songsTable.PNG)
 
 ![artist table](https://github.com/duskaan/DEUdacity/blob/master/artistTable.PNG)
 
@@ -32,7 +32,7 @@ The main concern as of now is, that there seems to be no matching data between t
 
 
 There are 666 different records matched in the songplay tables. The below query is used to analyse if the tables have been copied and transformed successfully.
-![queryrequest](https://github.com/duskaan/DEUdacity/blob/master/ongplays_detailsQueryRequest.PNG)
+![queryrequest](https://github.com/duskaan/DEUdacity/blob/master/songplays_detailsQueryRequest.PNG)
 
 And the result clearly illustrates a success. 
-![queryresult](https://github.com/duskaan/DEUdacity/blob/master/ongplays_detailsQuery.PNG)
+![queryresult](https://github.com/duskaan/DEUdacity/blob/master/songplays_detailsQuery.PNG)
